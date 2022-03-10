@@ -39,23 +39,63 @@
     </nav>
 
 
+    <div class="wrapper">
+        <div class="registration_form">
+            <div class="title">
+                LÄGG TILL NY MATCH
+            </div>
+    
+            <form>
+                <div class="form_wrap">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                            <label for="fname">Hemmalag</label>
+                            <input type="text" id="fname">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="lname">Bortalag</label>
+                            <input type="text" id="lname">
+                        </div>
+                    </div>
+                    <div class="input_wrap">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="input_wrap">
+                        <label>Kön</label>
+                        <ul>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="gender" value="male" class="input_radio" checked>
+                                    <span>Male</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="radio_wrap">
+                                    <input type="radio" name="gender" value="female" class="input_radio">
+                                    <span>Female</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="input_wrap">
+                        <label for="city">Anfallspel eller Försvarsspel</label>
+                        <input type="text" id="city">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="country">Fokus</label>
+                        <input type="text" id="country">
+                    </div>
+                    <div class="input_wrap">
+                        <input type="submit" value="Registrera match" class="submit_btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
 
-    <div class="w3-container">
-        <h2>Form Elements in a Grid</h2>
-        <p>In this example, we use W3.CSS' Responsive Grid System to make the inputs appear on the same line (on smaller screens, they will stack horizontally with 100% width). You will learn more about this later.</p>
-      </div>
-      
-      <div class="w3-row-padding">
-        <div class="w3-third">
-          <input class="w3-input w3-border" type="text" placeholder="One">
-        </div>
-        <div class="w3-third">
-          <input class="w3-input w3-border" type="text" placeholder="Two">
-        </div>
-        <div class="w3-third">
-          <input class="w3-input w3-border" type="text" placeholder="Three">
-        </div>
-      </div>
+
     
     <script src="/asset/js/myscript.js"></script>
 </body>
